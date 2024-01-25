@@ -1,0 +1,19 @@
+{
+ "name":"php-env",
+ "type":"library",
+ "description":" php env library",
+ "license": "MIT",
+ "require":{
+  "php":">=5.3"
+ },
+ "autoload": {
+   "psr-4": {
+     "Env\\": "src"
+   }
+ },
+ "autoload-dev": {
+  "psr-4": {
+    "Env\\Tests\\": "tests/"
+  }
+ }
+}
